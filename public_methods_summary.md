@@ -28,6 +28,9 @@
   - `SetBackdrop(name BackdropName)`
   - `SetBackdrop(index float64 | int)`
   - `SetBackdrop(action Prev | Next)`
+  - `SetBackdropAndWait(name BackdropName)`
+  - `SetBackdropAndWait(index float64 | int)`
+  - `SetBackdropAndWait(action Prev | Next)`
 
 - **输入检测**
   - [`KeyPressed(key Key) bool`](game.go#L1385) - 检查按键是否按下
